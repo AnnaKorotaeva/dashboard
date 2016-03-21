@@ -1,310 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Metronic | Dashboard</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>Metronic | Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700' rel='stylesheet' type='text/css'>
 </head>
+
 <body>
-  <header class="main-header">
-    <section class="main-header__left">
-      <!Пункт 1.1>
-      <div class="main-header__logo">
-        <a href="#"><img src="img/logo.png" alt="logo"></a>
-      </div>
-      <div class="main-header__nav">
-        <a href="#"><img src="img/sidebar_toggler_icon_darkblue.png" alt=""></a>
-      </div>
-    </section>
-    <section class="main-header__right flex-horizontal">
-      <!Пункт 1.2, 1.3>
-
-
-      <div class="main-header__notification">
-        <i class="fa fa-bell-o icon-note"></i>
-        <div class="hidden-menu">
-          <div class="hidden-menu__top">
-          <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
-          <a href="#" class="hidden-menu__view">View all</a>
-          </div>
-          <div class="person">
-          <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
-          <div class="flex">
-          <p class="person__name">Lisa Wong</p>
-          <p class="person__time">Just now</p>
-          </div>
-          <div class="hidden-menu__text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-             </div>
-          </div>
-        </div>
-        <i class="fa fa-envelope-o icon-note"></i>
-        <div class="hidden-menu">
-          <div class="hidden-menu__top">
-          <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
-          <a href="#" class="hidden-menu__view">View all</a>
-          </div>
-          <div class="person">
-          <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
-          <div class="flex">
-          <p class="person__name">Lisa Wong</p>
-          <p class="person__time">Just now</p>
-          </div>
-          <div class="hidden-menu__text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-             </div>
-          </div>
-        </div>
-        <i class="fa fa-calendar icon-note"></i>
-        <div class="hidden-menu">
-          <div class="hidden-menu__top">
-          <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
-          <a href="#" class="hidden-menu__view">View all</a>
-          </div>
-          <div class="person">
-          <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
-          <div class="flex">
-          <p class="person__name">Lisa Wong</p>
-          <p class="person__time">Just now</p>
-          </div>
-          <div class="hidden-menu__text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-             </div>
-          </div>
-        </div>
-      </div>
-      <img src="img/avatar3_small.jpg" alt="" class="main-header__avatar">
-
-    <div class="main-header__nickname">Nick</div>
-
-    <div class="main-header__user-block">
-        <img src="" alt="">
-      </div>
-      <div class="main-header__user-block--hover">
-        <p>Ivan Ivanov</p>
-        <a href="#">Sign out</a>
-      </div>
-    </section>
-  </header>
-
-  <div class="main-container">
-    <nav class="sidebar">
-      <!Пункт 1.4>
-      <div class="search">
-        <form action="">
-        <input type="search" minlength="5" maxlength="100" pattern="^[a-zA-Z]+$"
-        pattern="^[ 0-9]+$" placeholder="Search..." class="search__button">
-
-        </form>
-      </div>
-      <!Пункт 1.5>
-      <div class="sidebar-features">
-        <h3 class="block-heading">Features</h3>
-        <ul class="sidebar-features__list">
-          <!Пункт 1.6>
-          <li>
-            <label for="features-menu-item" class="sidebar__item">
-              <span class="fa fa-diamond"></span> UI Features
-            </label>
-          </li>
-          <input type="checkbox" id="features-menu-item" class="dropdown-checkbox">
-          <ul class="drop-down">
-            <li><a href="">Color library</a></li>
-            <li><a href="">General components</a></li>
-            <li><a href="">Buttons</a></li>
-            <li><a href="">Popover Confirmations</a></li>
-            <li><a href="">Font icons</a></li>
-            <li><a href="">Social icons</a></li>
-            <li><a href="">Typography</a></li>
-            <li><a href="">Tabs, Accordions&Navs</a></li>
-            <li><a href="">Timeline</a></li>
-            <li><a href="">Tree view</a></li>
-            <li><a href="">Page progress bar</a></li>
-          </ul>
-        </ul>
-      </div>
-    </nav>
-    <div class="main-content">
-      <!Пункт 1.7>
-    <section class="breadcrumbs">
-      <ul class="breadcrumbs__list">
-       <li class="breadcrumbs-link"><a href="">Home</a></li>
-       <li class="breadcrumbs-link"><a href="">Dashboard</a></li>
-      </ul>
-    </section>
-    <!Пункт 1.8>
-    <h3 class="page-title">Dashboard
-                        <small>dashboard &amp; statistics</small>
-                    </h3>
-    <!Пункт 1.9>
-    <article class="dashboard">
-    <div class="dashboard-block dashboard-block--blue">
-      <i class="fa fa-comments"></i>
-      <div class="dashboard-text">
-      <p class="big-font">1349</p>
-      <p class="description">New feedbacks</p>
-      </div>
-    </div>
-  </article>
-  <!Пункт 2.10>
-  <article class="content-item">
-    <div class="content-item__head">
-      <div class="content-item__title content-item__title">Comments</div>
-    <div>
-      <a href="" class="content-item__menu content-item__menu--active">Pending</a>
-      <a href="" class="content-item__menu">Approved</a>
-    </div>
-    </div>
-    <div class="content-item__body">
-    <div class="comment-info">
-      <img src="img/avatar1.jpg" alt="" class="avatar">
-      <div class="user-name">Michael Baker</div>
-      <time datetime="2015-02-26T10:30" class="content-text">26 Feb, 10:30AM</time>
-    </div>
-    <p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-       industry. Lorem Ipsum has been the industry's standard dummy.</p>
-       <p class="state state--disabled">Pending</p>
-       </div>
-  </article>
-  <!Пункт 3.12>
-  <article class="content-item">
-    <div class="content-item__head">
-      <div class="content-item__title content-item__title--blue">Tasks<span class="title-small">  tasks summary...</span></div>
-    <div>
-      <a href="#" class="btn btn--blue">More<i class="fa fa-angle-down"></i></a>
-    </div>
-    </div>
-    <div class="content-item__body">
-    <input type="checkbox" class="content-text"> AirAsia Intranet System Project Internal Meeting
-    <span class="blue-back">AirAsia</span><i class="fa fa-bell-o"></i>
-  </div>
-  </article>
-  <!Пункт 4.13>
-  <article class="content-item">
-    <div class="content-item__head">
-      <div class="content-item__title content-item__title--blue">Recent activities</div>
-    <div>
-      <a href="" class="content-item__menu content-item__menu--active">System</a>
-      <a href="" class="content-item__menu">Activities</a>
-    </div>
-    </div>
-    <div class="content-item__body flex-horizontal">
-      <div>
-    <i class="fa fa-check blue-back"></i>
-    </div>
-    <p class="content-text">You have 4 pending tasks. <span class="action">Take action
-    <i class="fa fa-share"></i></span></p>
-    <p class="date">Just now</p>
-     </div>
-  </article>
-  <!Пункт 5.14>
-  <article class="content-item">
-    <div class="content-item__head">
-      <div class="content-item__title content-item__title--blue">Feeds</div>
-    <div>
-      <a href="" class="content-item__menu">Today</a>
-      <a href="" class="content-item__menu content-item__menu--active">Month</a>
-      <a href="" class="content-item__menu">Week</a>
-      <a href="" class="content-item__menu">Day</a>
-    </div>
-    </div>
-    <div class="content-item__body">
-      <div class="table-title">March 2016</div>
-    <div class="table">
-      <div class="table-row">
-        <div class="table-row-bg">
-          <table class="calendar">
-            <tr>
-              <td>28</td>
-              <td>29</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
-            </tr>
-          </table>
-        </div>
-        <table class="events">
-          <tr>
-            <td></td>
-            <td></td>
-            <td><a href="#" class="table-date table-date--yellow">12a All Day</a></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><a href="#" class="table-date table-date--blue">12a Long Event</a></td>
-          </tr>
-        </table>
-      </div>
-      <div class="table-row">
-        <div class="table-row-bg">
-          <table class="calendar">
-            <tr>
-              <td>6</td>
-              <td>7</td>
-              <td>8</td>
-              <td>9</td>
-              <td>10</td>
-              <td>11</td>
-              <td>12</td>
-            </tr>
-          </table>
-        </div>
-        <table class="events">
-          <tr>
-            <td colspan="2"><a href="#" class="table-date table-date--red">Long Event</a></td>
-            <td></td>
-            <td></td>
-            <td><a href="#" class="table-date table-date--gray">2p Lunch</a></td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
-  </div>
-  </article>
-  <!Пункт 5.15>
-  <article class="content-item">
-    <div class="content-item__head">
-      <div class="content-item__title content-item__title--red">Chats</div>
-    <div>
-      <input type="search" placeholder="search..." class="chat-search">
-    </div>
-    </div>
-  <div class="content-item__body">
-  <div class="comment flex-horizontal">
-    <span class="comment__arrow-right"></span>
-    <div class="comment-text-right">
-    <p><a href="">Lisa Wong</a> at 20.11</p>
-    <p>Lorem ipsum dolor sit amet,
-      consectetuer adipiscing elit, sed diam nonummy nibh euismod
-       tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-     </div>
-       <img src="img/avatar2.jpg" alt="" class="comment__avatar-right">
-       </div>
-       <div class="comment flex-horizontal">
-         <img src="img/avatar1.jpg" alt="" class="comment__avatar-left">
-         <span class="comment__arrow-left"></span>
-         <div class="comment-text-left">
-         <p><a href="">Bob Nilson</a> at 20.30</p>
-         <p>Lorem ipsum dolor sit amet,
-           consectetuer adipiscing elit, sed diam nonummy nibh euismod
-            tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-          </div>
-
+    <header class="main-header flex">
+        <section class="main-header__left flex">
+            <!Пункт 1.1>
+            <div class="main-header__logo">
+                <a href="#"><img src="img/logo.png" alt="logo">
+                </a>
             </div>
-     </div>
-  </article>
-  </div>
-  <footer class="main-footer"></footer>
+            <div class="main-header__nav">
+                <a href="#"><img src="img/sidebar_toggler_icon_darkblue.png" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="main-header__right flex">
+            <!Пункт 1.2>
+
+            <div class="main-header__notification">
+                <i class="fa fa-bell-o icon-note"></i>
+                <div class="hidden-menu">
+                    <div class="hidden-menu__top">
+                        <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
+                        <a href="#" class="hidden-menu__view">View all</a>
+                    </div>
+                    <div class="person">
+                        <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
+                        <div class="flex">
+                            <p class="person__name">Lisa Wong</p>
+                            <p class="person__time">Just now</p>
+                        </div>
+                        <div class="hidden-menu__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa fa-envelope-o icon-note"></i>
+                <div class="hidden-menu">
+                    <div class="hidden-menu__top">
+                        <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
+                        <a href="#" class="hidden-menu__view">View all</a>
+                    </div>
+                    <div class="person">
+                        <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
+                        <div class="flex">
+                            <p class="person__name">Lisa Wong</p>
+                            <p class="person__time">Just now</p>
+                        </div>
+                        <div class="hidden-menu__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa fa-calendar icon-note"></i>
+                <div class="hidden-menu">
+                    <div class="hidden-menu__top">
+                        <p class="hidden-menu__message">You have <strong>7 New</strong> Messages</p>
+                        <a href="#" class="hidden-menu__view">View all</a>
+                    </div>
+                    <div class="person">
+                        <img src="img/avatar2.jpg" alt="" class="hidden-menu__avatar">
+                        <div class="flex">
+                            <p class="person__name">Lisa Wong</p>
+                            <p class="person__time">Just now</p>
+                        </div>
+                        <div class="hidden-menu__text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!Пункт 1.3>
+            <div class="main-header__avatar">
+            <img src="img/avatar3_small.jpg" alt="" class="avatar">
+            </div>
+            <div class="main-header__user-block">
+                <p>Nick|</p>
+                <div><a href="#">Sign out</a></div>
+            </div>
+            <div class="small">Nick</div>
+
+        </section>
+    </header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <!Пункт 1.4>
+            <div class="search">
+                <form action="">
+                    <input type="search" minlength="5" maxlength="100"
+                    pattern="^[a-zA-Z]+$" pattern="^[ 0-9]+$" placeholder="Search..." class="search__button">
+                </form>
+            </div>
+            <!Пункт 1.5, 1.6>
+            <div class="sidebar-features">
+                <h3 class="sidebar-heading">Features</h3>
+                <ul class="sidebar-features__list">
+                    <li>
+                        <label for="features-menu-item" class="sidebar__item">
+                            <span class="fa fa-diamond"></span> UI Features
+                        </label>
+                    </li>
+                    <input type="checkbox" id="features-menu-item" class="dropdown-checkbox">
+                    <ul class="drop-down">
+                        <li><a href="">Color library</a>
+                        </li>
+                        <li><a href="">General components</a>
+                        </li>
+                        <li><a href="">Buttons</a>
+                        </li>
+                        <li><a href="">Popover Confirmations</a>
+                        </li>
+                        <li><a href="">Font icons</a>
+                        </li>
+                        <li><a href="">Social icons</a>
+                        </li>
+                        <li><a href="">Typography</a>
+                        </li>
+                        <li><a href="">Tabs, Accordions&Navs</a>
+                        </li>
+                        <li><a href="">Timeline</a>
+                        </li>
+                        <li><a href="">Tree view</a>
+                        </li>
+                        <li><a href="">Page progress bar</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-content">
+            <!Пункт 1.7>
+            <section class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs-link"><a href="">Home</a>
+                    </li>
+                    <li class="breadcrumbs-link"><a href="">Dashboard</a>
+                    </li>
+                </ul>
+            </section>
+            <!Пункт 1.8>
+            <h3 class="main-content-title">Dashboard
+                        <span class="small">dashboard &amp; statistics</span>
+                    </h3>
+            <!Пункт 1.9>
+            <article class="dashboard">
+                <div class="dashboard-block dashboard-block--blue">
+                    <i class="fa fa-comments fa-5x"></i>
+                    <div class="dashboard-text">
+                        <p class="big-font">1349</p>
+                        <p class="description">New feedbacks</p>
+                    </div>
+                </div>
+            </article>
+            <!Пункт 2.10>
+            <article class="content-item">
+                <div class="content-item__head">
+                    <div class="content-item__title content-item__title">Comments</div>
+                    <div>
+                        <a href="" class="content-item__menu content-item__menu--active">Pending</a>
+                        <a href="" class="content-item__menu">Approved</a>
+                    </div>
+                </div>
+                <div class="content-item__body">
+                    <div class="flex">
+                        <img src="img/avatar1.jpg" alt="" class="avatar">
+                        <div class="user-name">Michael Baker</div>
+                        <time datetime="2015-02-26T10:30" class="content-text">26 Feb, 10:30AM</time>
+                    </div>
+                    <p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+                    <p class="state state--disabled">Pending</p>
+                </div>
+            </article>
+            <!Пункт 3.12>
+            <article class="content-item">
+                <div class="content-item__head">
+                    <div class="content-item__title content-item__title--blue">Tasks<span class="title-small">  tasks summary...</span>
+                    </div>
+                    <div>
+                        <a href="#" class="btn btn--blue">More<i class="fa fa-angle-down"></i></a>
+                    </div>
+                </div>
+                <div class="content-item__body">
+                    <input type="checkbox" class="content-text"> AirAsia Intranet System Project Internal Meeting
+                    <span class="blue-back">AirAsia</span><i class="fa fa-bell-o"></i>
+                </div>
+            </article>
+            <!Пункт 4.13>
+            <article class="content-item">
+                <div class="content-item__head">
+                    <div class="content-item__title content-item__title--blue">Recent activities</div>
+                    <div>
+                        <a href="" class="content-item__menu content-item__menu--active">System</a>
+                        <a href="" class="content-item__menu">Activities</a>
+                    </div>
+                </div>
+                <div class="content-item__body flex">
+                    <div>
+                        <i class="fa fa-check blue-back"></i>
+                    </div>
+                    <p class="content-text">You have 4 pending tasks. <span class="action">Take action
+    <i class="fa fa-share"></i></span>
+                    </p>
+                    <p class="date">Just now</p>
+                </div>
+            </article>
+            <!Пункт 5.14>
+            <article class="content-item">
+                <div class="content-item__head">
+                    <div class="content-item__title content-item__title--blue">Feeds</div>
+                    <div>
+                        <a href="" class="content-item__menu">Today</a>
+                        <a href="" class="content-item__menu content-item__menu--active">Month</a>
+                        <a href="" class="content-item__menu">Week</a>
+                        <a href="" class="content-item__menu">Day</a>
+                    </div>
+                </div>
+                <div class="content-item__body">
+                    <div class="table-title">March 2016</div>
+                    <div class="table">
+                        <div class="table-row">
+                            <div class="table-row-bg">
+                                <table class="calendar">
+                                    <tr>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <table class="events">
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href="#" class="table-date table-date--yellow">12a All Day</a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href="#" class="table-date table-date--blue">12a Long Event</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="table-row">
+                            <div class="table-row-bg">
+                                <table class="calendar">
+                                    <tr>
+                                        <td>6</td>
+                                        <td>7</td>
+                                        <td>8</td>
+                                        <td>9</td>
+                                        <td>10</td>
+                                        <td>11</td>
+                                        <td>12</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <table class="events">
+                                <tr>
+                                    <td colspan="2"><a href="#" class="table-date table-date--red">Long Event</a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href="#" class="table-date table-date--gray">2p Lunch</a>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+            <!Пункт 5.15>
+            <article class="content-item">
+                <div class="content-item__head">
+                    <div class="content-item__title content-item__title--red">Chats</div>
+                    <div>
+                        <input type="search" placeholder="search..." class="chat-search">
+                    </div>
+                </div>
+                <div class="content-item__body">
+                    <div class="comment flex">
+                        <span class="comment__arrow comment__arrow-right"></span>
+                        <div class="comment-text comment-text-right">
+                            <p><a href="">Lisa Wong</a> at 20.11</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        </div>
+                        <img src="img/avatar2.jpg" alt="" class="avatar comment__avatar-right">
+                    </div>
+                    <div class="comment flex">
+                        <img src="img/avatar1.jpg" alt="" class="avatar comment__avatar-left">
+                        <span class="comment__arrow comment__arrow-left"></span>
+                        <div class="comment-text comment-text-left">
+                            <p><a href="">Bob Nilson</a> at 20.30</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </article>
+            <a href="#" class="topbutton"><i class="fa fa-arrow-circle-o-up fa-2x"></i></a>
+        </div>
+    </div>
+
 </body>
+
 </html>
